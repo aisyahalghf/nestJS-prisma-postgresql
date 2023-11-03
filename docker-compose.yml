@@ -8,5 +8,13 @@ services:
       POSTGRES_USER: aisyahalghifari
       POSTGRES_PASSWORD: hahahehe
       POSTGRES_DB: postgres
+  test-db:
+    image: postgres:13
+    ports:
+      - 5435:5432
+    environment:
+      POSTGRES_USER: aisyahalghifari
+      POSTGRES_PASSWORD: hahahehe
+      POSTGRES_DB: postgres
 networks:
   freecodecamp:
