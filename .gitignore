@@ -13,10 +13,13 @@ lerna-debug.log*
 
 # OS
 .DS_Store
+.env
+.env.test
 
 # Tests
 /coverage
 /.nyc_output
+
 
 # IDEs and editors
 /.idea
@@ -33,3 +36,4 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
