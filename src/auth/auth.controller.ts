@@ -28,7 +28,7 @@ export class AuthController {
 
   @Get()
   getBookmarks() {
-    return 'horayyy welcome to port 333';
+    return 'horayyy welcome to port 3333';
   }
 
   @Post('signin')
