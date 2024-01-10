@@ -4,6 +4,7 @@ import {
   HttpCode,
   HttpStatus,
   Post,
+  Get,
 } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { AuthDto } from './dto';
@@ -23,6 +24,11 @@ export class AuthController {
     // });
 
     return this.authService.signup(dto);
+  }
+
+  @Get()
+  getBookmarks() {
+    return 'horayyy welcome to port 333';
   }
 
   @Post('signin')
