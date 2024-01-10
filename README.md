@@ -41,6 +41,9 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
+# access localhost or 127.0.0.1 or your computer's ip
+$ adb -s emulator-5554 reverse tcp:3333 tcp:3333
+
 # production mode
 $ npm run start:prod
 ```
